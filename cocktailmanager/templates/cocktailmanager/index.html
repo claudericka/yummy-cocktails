@@ -57,14 +57,14 @@
                         </div>
                         <!-- Search Button Area -->
                         <div class="search_button">
-                            <a class="searchBtn" href="#"><i class="fab fa-search" aria-hidden="true"></i></a>
+                            <a class="searchBtn" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
                         </div>
                         <!-- Search Form -->
                         <div class="search-hidden-form">
                             <form action="#" method="get">
                                 <input type="search" name="search" id="search-anything" placeholder="Search Anything...">
                                 <input type="submit" value="" class="d-none">
-                                <span class="searchBtn"><i class="fab fa-times" aria-hidden="true"></i></span>
+                                <span class="searchBtn"><i class="fas fa-times" aria-hidden="true"></i></span>
                             </form>
                         </div>
                     </div>
@@ -94,29 +94,24 @@
                         <div class="collapse navbar-collapse justify-content-center" id="yummyfood-nav">
                             <ul class="navbar-nav" id="yummy-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                    <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
                                     <div class="dropdown-menu" aria-labelledby="yummyDropdown">
-                                        <a class="dropdown-item" href="index.html">Home</a>
-                                        <a class="dropdown-item" href="archive.html">Archive</a>
-                                        <a class="dropdown-item" href="single.html">Single Blog</a>
-                                        <a class="dropdown-item" href="static.html">Static Page</a>
-                                        <a class="dropdown-item" href="contact.html">Contact</a>
+                                        <a class="dropdown-item" href="single.html">Drink lovers</a>
+                                        <a class="dropdown-item" href="static.html">Homemade</a>
+                                        <a class="dropdown-item" href="contact.html">Lyfestyle</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
+                                    <a class="nav-link" href="#">Search</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Categories</a>
+                                    <a class="nav-link" href="#">Dashboard</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="archive.html">Archive</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#">Archives</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
@@ -140,11 +135,12 @@
             <!-- Overlay Text -->
             <div class="project_title">
                 <div class="post-date-commnents d-flex">
-                    <a href="#">May 19, 2017</a>
                     <a href="#">5 Comment</a>
+                    <a href="#">10 Likes</a>
                 </div>
+                <a href="#">May 19, 2017</a>
                 <a href="#">
-                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Cocktail</h5>
                 </a>
             </div>
         </div>
@@ -156,11 +152,13 @@
             <!-- Overlay Text -->
             <div class="project_title">
                 <div class="post-date-commnents d-flex">
-                    <a href="#">May 19, 2017</a>
+
                     <a href="#">5 Comment</a>
+                    <a href="#">10 Likes</a>
                 </div>
                 <a href="#">
-                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+                    <a href="#">May 19, 2017</a>
+                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Cocktail</h5>
                 </a>
             </div>
         </div>
@@ -172,11 +170,12 @@
             <!-- Overlay Text -->
             <div class="project_title">
                 <div class="post-date-commnents d-flex">
-                    <a href="#">May 19, 2017</a>
                     <a href="#">5 Comment</a>
+                    <a href="#">10 Likes</a>
                 </div>
+                <a href="#">May 19, 2017</a>
                 <a href="#">
-                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Cocktail</h5>
                 </a>
             </div>
         </div>
@@ -188,11 +187,12 @@
             <!-- Overlay Text -->
             <div class="project_title">
                 <div class="post-date-commnents d-flex">
-                    <a href="#">May 19, 2017</a>
                     <a href="#">5 Comment</a>
+                    <a href="#">10 Likes</a>
                 </div>
+                <a href="#">May 19, 2017</a>
                 <a href="#">
-                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Cocktail</h5>
                 </a>
             </div>
         </div>
@@ -207,8 +207,9 @@
                     <a href="#">May 19, 2017</a>
                     <a href="#">5 Comment</a>
                 </div>
+                <a href="#">May 19, 2017</a>
                 <a href="#">
-                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+                    <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Cocktail</h5>
                 </a>
             </div>
         </div>
@@ -265,44 +266,13 @@
                         <!-- Single Post -->
                         <div class="col-12">
                             <div class="single-post wow fadeInUp" data-wow-delay=".2s">
-                                <!-- Post Thumb -->
-                                <div class="post-thumb">
-                                    <img src="{% static "cocktailmanager/img/blog-img/1.jpg" %} " alt="">
-                                </div>
                                 <!-- Post Content -->
                                 <div class="post-content">
-                                    <div class="post-meta d-flex">
-                                        <div class="post-author-date-area d-flex">
-                                            <!-- Post Author -->
-                                            <div class="post-author">
-                                                <a href="#">By Marian</a>
-                                            </div>
-                                            <!-- Post Date -->
-                                            <div class="post-date">
-                                                <a href="#">May 19, 2017</a>
-                                            </div>
-                                        </div>
-                                        <!-- Post Comment & Share Area -->
-                                        <div class="post-comment-share-area d-flex">
-                                            <!-- Post Favourite -->
-                                            <div class="post-favourite">
-                                                <a href="#"><i class="fab fa-heart-o" aria-hidden="true"></i> 10</a>
-                                            </div>
-                                            <!-- Post Comments -->
-                                            <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
-                                            </div>
-                                            <!-- Post Share -->
-                                            <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                     <a href="#">
-                                        <h2 class="post-headline">Boil The Kettle And Make A Cup Of Tea Folks, This Is Going To Be A Big One!</h2>
+                                        <h2 class="post-headline">Popular cocktail recipes posts</h2>
                                     </a>
-                                    <p>Tiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</p>
-                                    <a href="#" class="read-more">Continue Reading..</a>
+
                                 </div>
                             </div>
                         </div>
@@ -331,20 +301,20 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <a href="#">
-                                        <h4 class="post-headline">Where To Get The Best Sunday Roast In The Cotswolds</h4>
+                                        <h4 class="post-headline">Where To Get The Best Friday cocktails In Paris! TGIF</h4>
                                     </a>
                                 </div>
                             </div>
@@ -374,20 +344,20 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <a href="#">
-                                        <h4 class="post-headline">The Top Breakfast And Brunch Spots In Hove, Brighton</h4>
+                                        <h4 class="post-headline">The Top Breakfast And Brunch Spots for cocktail lovers In Hove, Brighton</h4>
                                     </a>
                                 </div>
                             </div>
@@ -417,15 +387,15 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -460,20 +430,20 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <a href="#">
-                                        <h4 class="post-headline">The 10 Best Brunch Spots In Newcastle, England</h4>
+                                        <h4 class="post-headline">The 10 Best Pubs Spots In Newcastle, England</h4>
                                     </a>
                                 </div>
                             </div>
@@ -505,15 +475,15 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -550,22 +520,22 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <a href="#">
-                                        <h4 class="post-headline">How To Get a Narcissist to Feel Empathy</h4>
+                                        <h4 class="post-headline">How To Make a great cocktail for beginners</h4>
                                     </a>
-                                    <p>Tiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                                    <p></p>
                                     <a href="#" class="read-more">Continue Reading..</a>
                                 </div>
                             </div>
@@ -595,22 +565,22 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <a href="#">
-                                        <h4 class="post-headline">Bristol's 10 Amazing Weekend Brunches And Late Breakfasts</h4>
+                                        <h4 class="post-headline">Bristol's 10 Amazing Place for Afterwork in Paris</h4>
                                     </a>
-                                    <p>Tiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                                    <p>Here we go, you are looking for best bars, here are some hype place.</p>
                                     <a href="#" class="read-more">Continue Reading..</a>
                                 </div>
                             </div>
@@ -640,22 +610,22 @@
                                         <div class="post-comment-share-area d-flex">
                                             <!-- Post Favourite -->
                                             <div class="post-favourite">
-                                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> 10</a>
+                                                <a href="#"><i class="fas fa-heart" aria-hidden="true"></i> 10</a>
                                             </div>
                                             <!-- Post Comments -->
                                             <div class="post-comments">
-                                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 12</a>
+                                                <a href="#"><i class="fas fa-comment" aria-hidden="true"></i> 12</a>
                                             </div>
                                             <!-- Post Share -->
                                             <div class="post-share">
-                                                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fas fa-share-alt" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <a href="#">
-                                        <h4 class="post-headline">10 Of The Best Places To Eat In Liverpool, England</h4>
+                                        <h4 class="post-headline">10 Of The Best Places To Eat and Drink In Liverpool, England</h4>
                                     </a>
-                                    <p>Tiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                                    <p>Excited to go to Liverpool, here are the list of pubs, bars and restaurants to enjoy some homeland drinks</p>
                                     <a href="#" class="read-more">Continue Reading..</a>
                                 </div>
                             </div>
@@ -673,10 +643,10 @@
                                 <h6>About Me</h6>
                             </div>
                             <div class="about-me-widget-thumb">
-                                <img src="{% static "cocktailmanager/img/about-img/1.jpg" %} " alt="">
+                                <img src="{% static "cocktailmanager/img/about-img/me.jpg" %} " alt="">
                             </div>
-                            <h4 class="font-shadow-into-light">Shopia Bernard</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                            <h4 class="font-shadow-into-light">Claudericka Jeannier</h4>
+                            <p>Software developer and cocktail lovers. Made this site for all cocktail and food junkies</p>
                         </div>
 
                         <!-- Single Widget Area -->
@@ -685,12 +655,12 @@
                                 <h6>Subscribe &amp; Follow</h6>
                             </div>
                             <div class="subscribe-link">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-google" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-square" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-vimeo" aria-hidden="true"></i></a>
                             </div>
                         </div>
 
@@ -758,9 +728,8 @@
                                 <div class="add-text">
                                     <div class="yummy-table">
                                         <div class="yummy-table-cell">
-                                            <h2>Cooking Book</h2>
-                                            <p>Buy Book Online Now!</p>
-                                            <a href="#" class="add-btn">Buy Now</a>
+                                            <h2>Cocktail Book</h2>
+                                            <p>Create Your Book Online Now!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -776,7 +745,7 @@
                             <div class="newsletter-form">
                                 <form action="#" method="post">
                                     <input type="email" name="newsletter-email" id="email" placeholder="Your email">
-                                    <button type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                                    <button type="submit"><i class="fab fa-paper-plane-o" aria-hidden="true"></i></button>
                                 </form>
                             </div>
                         </div>
@@ -799,7 +768,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -815,7 +784,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -831,7 +800,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -847,7 +816,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -863,7 +832,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -879,7 +848,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -895,7 +864,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -911,7 +880,7 @@
                 <div class="yummy-table">
                     <div class="yummy-table-cell">
                         <div class="follow-me text-center">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Follow me</a>
                         </div>
                     </div>
                 </div>
@@ -928,25 +897,25 @@
                 <div class="col-12">
                     <div class="footer-social-area d-flex">
                         <div class="single-icon">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>facebook</span></a>
+                            <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i><span>facebook</span></a>
                         </div>
                         <div class="single-icon">
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
                         </div>
                         <div class="single-icon">
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i><span>GOOGLE+</span></a>
+                            <a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i><span>GOOGLE+</span></a>
                         </div>
                         <div class="single-icon">
-                            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span>linkedin</span></a>
+                            <a href="#"><i class="fab fa-linkedin-square" aria-hidden="true"></i><span>linkedin</span></a>
                         </div>
                         <div class="single-icon">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
                         </div>
                         <div class="single-icon">
-                            <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i><span>VIMEO</span></a>
+                            <a href="#"><i class="fab fa-vimeo" aria-hidden="true"></i><span>VIMEO</span></a>
                         </div>
                         <div class="single-icon">
-                            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i><span>YOUTUBE</span></a>
+                            <a href="#"><i class="fab fa-youtube-play" aria-hidden="true"></i><span>YOUTUBE</span></a>
                         </div>
                     </div>
                 </div>
