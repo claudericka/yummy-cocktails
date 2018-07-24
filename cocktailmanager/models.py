@@ -17,6 +17,7 @@ class Alcohol(models.Model):
     calories = models.ForeignKey(Calorie, on_delete=models.CASCADE)
     type = models.CharField(max_length=250)
     image = models.ImageField(upload_to='alcohol')
+    icon = models.CharField(max_length=250)
     alcohol_rate = models.IntegerField(default=0)
 
 
@@ -24,13 +25,20 @@ class Ingredient(models.Model):
     name = models.CharField(max_length=250)
     calories = models.ForeignKey(Calorie, on_delete=models.CASCADE)
     type = models.CharField(max_length=250)
+    icon = models.CharField(max_length=250)
+    image = models.ImageField(upload_to='ingredient')
+
+
+class Glass(models.Model):
+    name = models.CharField(max_length=250)
+    icon = models.CharField(max_length=250)
     image = models.ImageField(upload_to='ingredient')
 
 
 class Cocktail(models.Model):
-    # ingredients = models.ForeignKey("Ingredient", on_delete=False)
+    ingredients = models.ForeignKey(Ingredient, on_delete=False)
     name = models.CharField(max_length=250)
-    glass = models.CharField(max_length=200)
+    glass = models.ForeignKey(Glass, on_delete=models.CASCADE)
     method = models.CharField(max_length=200)
     difficulty = models.IntegerField(default=0)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE)
